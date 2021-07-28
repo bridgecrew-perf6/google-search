@@ -5,7 +5,7 @@ import {useRouter} from 'next/router'
 import Image from 'next/image'
 
 import Head from 'next/head'
-import Footer from '../components/Footer'
+import Footer from '../Components/Footer'
 import Avatar from "../Components/Avatar"
 
 export default function Home() {

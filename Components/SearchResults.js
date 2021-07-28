@@ -9,7 +9,7 @@ function SearchResults({results}) {
             >
                 About {results.searchInformation?.formattedTotalResults} results
                 ({results.searchInformation?.formattedSearchTime} seconds)</p>
-            {results.items.map(result => (
+            {results.items?.map(result => (
                 <div
                     key={result.link}
                     className="max-w-xl mb-8">
