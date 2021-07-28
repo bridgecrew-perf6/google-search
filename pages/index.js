@@ -5,7 +5,7 @@ import {useRouter} from 'next/router'
 import Image from 'next/image'
 
 import Head from 'next/head'
-import Footer from '../Components/Footer'
+// import Footer from '../Components/Footer'
 import Avatar from "../Components/Avatar"
 import {GlobeIcon} from "@heroicons/react/outline"
 
