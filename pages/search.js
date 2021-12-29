@@ -5,8 +5,8 @@ import Response from "../Response"
 import {useRouter} from "next/router"
 import SearchResults from "../Components/SearchResults"
 
-const API_KEY = process.env.local.API_KEY
-const CONTEXT_KEY = process.env.local.CONTEXT_KEY
+const API_KEY = 'AIzaSyB7lXjr3pZTM4ANliDIzuZG-NhvzwloZW8'
+const CONTEXT_KEY = 'adbb0512a62c0a3f1'
 
 function Search({results}) {
     console.log(results)
