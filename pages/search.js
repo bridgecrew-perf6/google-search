@@ -1,9 +1,12 @@
 import Head from "next/head"
 import Header from "../Components/Header"
-import {API_KEY, CONTEXT_KEY} from "../.env.local"
+// import {API_KEY, CONTEXT_KEY} from "../.env.local"
 import Response from "../Response"
 import {useRouter} from "next/router"
 import SearchResults from "../Components/SearchResults"
+
+const API_KEY = process.env.local.API_KEY
+const CONTEXT_KEY = process.env.local.CONTEXT_KEY
 
 function Search({results}) {
     console.log(results)
