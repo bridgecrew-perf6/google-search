@@ -8,7 +8,7 @@ const API_KEY = 'AIzaSyB7lXjr3pZTM4ANliDIzuZG-NhvzwloZW8'
 const CONTEXT_KEY = 'adbb0512a62c0a3f1'
 
 function Search({results}) {
-    console.log(results)
+    console.log(results) 
     const router = useRouter()
 
     return (
