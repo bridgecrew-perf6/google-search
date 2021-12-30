@@ -1,9 +1,11 @@
 import Head from "next/head"
 import Header from "../Components/Header"
-import {API_KEY, CONTEXT_KEY} from "../.env.local"
 import Response from "../Response"
 import {useRouter} from "next/router"
 import SearchResults from "../Components/SearchResults"
+
+const API_KEY = 'AIzaSyB7lXjr3pZTM4ANliDIzuZG-NhvzwloZW8'
+const CONTEXT_KEY = 'adbb0512a62c0a3f1'
 
 function Search({results}) {
     console.log(results)
